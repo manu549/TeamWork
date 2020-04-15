@@ -2,7 +2,7 @@ from selenium import webdriver
 
 # webdriver allows us to drive the web through code
 # chromedriver allows selenium to be able to open up browser and manipulate the browser
-print('manu bheem')
+print('manu!')
 chrome_browser = webdriver.Chrome('./chromedriver.exe')
 chrome_browser.maximize_window()
 chrome_browser.get('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
